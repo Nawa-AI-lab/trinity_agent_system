@@ -125,8 +125,8 @@ class BaseAgent(ABC):
     def _default_system_prompt(self) -> str:
         """النظام الافتراضي للوكيل"""
         return f"""أنت {self.name}، {self.role}.
-        
-{description}
+
+{self.description}
 
 مهمتك هي تحليل المهام واتخاذ الإجراءات المناسبة باستخدام الأدوات المتاحة.
 يجب أن تكون منهجياً ودقيقاً في تفكيرك، مع شرح خطواتك بوضوح.

@@ -2,7 +2,7 @@
 سجل الأدوات - Tool Registry
 """
 
-from typing import Dict, Any, Callable
+from typing import Dict, Any, Callable, List, Optional
 from dataclasses import dataclass
 from enum import Enum
 
