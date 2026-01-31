@@ -1,0 +1,41 @@
+# Trinity AI Agent System - Requirements
+
+# Web Server and Runtime
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+
+# AI Integration
+openai==1.14.3
+anthropic==0.21.0
+langchain==0.2.0
+langchain-openai==0.1.8
+
+# Browser Automation
+playwright==1.41.2
+pyppeteer==2.0.0
+
+# Data Processing
+pydantic==2.6.1
+pydantic-settings==2.1.0
+orjson==3.9.15
+
+# Environment Management
+python-dotenv==1.0.1
+
+# Utilities
+httpx==0.26.0
+aiofiles==23.2.1
+tenacity==8.2.3
+aiohttp==3.9.3
+beautifulsoup4==4.12.3
+lxml==5.1.0
+
+# Testing
+pytest==8.0.0
+pytest-asyncio==0.23.4
+pytest-cov==4.1.0
+httpx==0.26.0
+
+# Documentation
+mkdocs==1.5.3
